@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="BankDataModel">
+  <DataContextMoniker Name="/BankDataModelDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f14182e2-55d9-41f4-a52b-890f3794550d" absoluteBounds="3.75, 0.75, 2, 3.1170068359375005">
+      <DataClassMoniker Name="/BankDataModelDataContext/Transaction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f4982607-8ca0-45b8-8eb1-e2c02b48b63f" absoluteBounds="3.765, 1.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ddbe50a-8d93-4a83-8059-36edf2210a96" absoluteBounds="0.75, 4.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/BankDataModelDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5b72682a-fa74-4ea3-b863-f2da132b2b9f" absoluteBounds="0.765, 5.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5dde5013-1031-4aca-b1c0-484e0ea15ce7" absoluteBounds="3.75, 4.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/BankDataModelDataContext/HistoryTransaction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5a245217-ad2d-4b1e-8eaa-d4950ea18b7d" absoluteBounds="3.765, 5.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6afcce62-d214-4adf-b407-63390d417f8b" absoluteBounds="6.875, 4.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/BankDataModelDataContext/Account" />
+      <nestedChildShapes>
+        <elementListCompartment Id="96c04f22-37ca-4d3f-9085-040e15649c96" absoluteBounds="6.8900000000000006, 5.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0112d68-192b-4c7b-a34a-bda52f6b1cd1" absoluteBounds="7.125, 2, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/BankDataModelDataContext/PartnerAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="de4d6aef-23e5-483e-a154-9129796ab15a" absoluteBounds="7.14, 2.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,7 @@
+E:\Sem 3\Bank_ApplicationWCFREST\Bank_ApplicationWCFREST\obj\Debug\Bank_ApplicationWCFREST.csproj.CoreCompileInputs.cache
+E:\Sem 3\Bank_ApplicationWCFREST\Bank_ApplicationWCFREST\bin\Bank_ApplicationWCFREST.dll.config
+E:\Sem 3\Bank_ApplicationWCFREST\Bank_ApplicationWCFREST\bin\Bank_ApplicationWCFREST.dll
+E:\Sem 3\Bank_ApplicationWCFREST\Bank_ApplicationWCFREST\bin\Bank_ApplicationWCFREST.pdb
+E:\Sem 3\Bank_ApplicationWCFREST\Bank_ApplicationWCFREST\obj\Debug\Bank_ApplicationWCFREST.dll
+E:\Sem 3\Bank_ApplicationWCFREST\Bank_ApplicationWCFREST\obj\Debug\Bank_ApplicationWCFREST.pdb
+E:\Sem 3\Bank_ApplicationWCFREST\Bank_ApplicationWCFREST\obj\Debug\Bank_ApplicationWCFREST.csprojAssemblyReference.cache
