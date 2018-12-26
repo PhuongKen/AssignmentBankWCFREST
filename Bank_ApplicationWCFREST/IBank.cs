@@ -52,7 +52,7 @@ namespace Bank_ApplicationWCFREST
             ResponseFormat = WebMessageFormat.Json,
             RequestFormat = WebMessageFormat.Json,
             UriTemplate = "AddTransaction/")]
-        bool AddTransaction(Transaction transaction);
+        int AddTransaction(Transaction transaction);
 
         [OperationContract]
         [WebInvoke(Method = "POST",

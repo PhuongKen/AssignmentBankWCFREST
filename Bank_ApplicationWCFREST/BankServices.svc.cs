@@ -125,7 +125,7 @@ namespace Bank_ApplicationWCFREST
             }
         }
 
-        public bool AddTransaction(Transaction transaction)
+        public int AddTransaction(Transaction transaction)
         {
             try
             {
@@ -153,7 +153,7 @@ namespace Bank_ApplicationWCFREST
                                     select b.balance).FirstOrDefault().ToString();
                 if (queryBalance == null)
                 {
-                    return false;
+                    return -4;
                 }
 
                 // Lấy số dư tài khoản người nhận.
@@ -164,7 +164,7 @@ namespace Bank_ApplicationWCFREST
 
                 if (queryBalanceReceiver == null)
                 {
-                    return false;
+                    return -3;
                 }
 
                 // Kiểm tra tài khoản thực hiện giao dịch.
@@ -175,7 +175,7 @@ namespace Bank_ApplicationWCFREST
 
                 if (queryBalancePaypal == null)
                 {
-                    return false;
+                    return -2;
                 }
 
                 // Tính phí giao dịch
@@ -209,7 +209,7 @@ namespace Bank_ApplicationWCFREST
                 //Nếu số tiền nhập lớn hơn số tiền trong tài khoản.Báo lỗi.
                 if ((amount + fee) > Convert.ToInt64(queryBalance))
                 {
-                    return false;
+                    return -1;
                 }
                 
                 // Trừ tiền tài khoản người gửi.
@@ -227,11 +227,11 @@ namespace Bank_ApplicationWCFREST
                 transaction.feeTransaction = fee;
                 data.Transactions.InsertOnSubmit(transaction);
                 data.SubmitChanges();
-                return true;
+                return 1;
             }
             catch
             {
-                return false;
+                return 0;
             }
         }
 
